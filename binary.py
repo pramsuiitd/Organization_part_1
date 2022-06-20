@@ -67,7 +67,7 @@ except Exception as excess:
 list_of_commands = ["level","diameter","distance",
                     "employees_at_same_level","immediate_team","boss","team_size"]
 
-n = (1000000-2) # Number of commands
+n = (1000-2) # Number of commands
 print(n+2)
 print("get_employees")
 print(list_of_commands[1])
