@@ -1,8 +1,8 @@
 import os
 import sys
 
-# for i in range(1,1001):
-    #os.system(f"./organization.exe < input_{i}.txt > testout_{i}.txt")
+for i in range(1,1001):
+    os.system(f"./organization.exe < input_{i}.txt > testout_{i}.txt")
 with open(os.path.join(sys.path[0], f"output_{1}.txt" ), "r") as f :
         lines = f.readlines()
 
